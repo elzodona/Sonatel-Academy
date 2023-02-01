@@ -8,12 +8,12 @@ int main(){
     scanf("%d", &n1);
     printf("Donnez le deuxieme nombre: ");
     scanf("%d", &n2);
-    for(int i=1;i<n1;i++){
+    for(int i=2;i<n1-1 ;i++){
         if(n1%i==0){
             somme1=somme1+i;
         }
     }
-    for(int i= 1 ; i < n2 ; i++){
+    for(int i= 2 ; i < n2-1 ; i++){
         if(n2%i==0){
             somme2=somme2+i;
         }
