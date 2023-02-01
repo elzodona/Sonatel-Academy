@@ -15,7 +15,7 @@ int main() {
     scanf("%d", &n);
     if (n < 2)
     {
-      printf("Le nombre doit etre plus grand que deux pour que le sablier soit beau ;-)\n");
+      printf("Le nombre doit etre plus grand que deux pour que le sablier soit visible ;-)\n");
     }
     
   }while(n<2);
@@ -24,17 +24,19 @@ int main() {
   for (i=1; i<=n; i++) {
     for (j=1; j<=i; j++) 
       printf(" ");
+       //colorer le dessin en bleu
+       printf("\033[6;31m"); 
     for (j=1; j<=2*(n-i)+1; j++) 
       printf("%c", s);
     printf("\n");
   }
-
   //dessin du bas du sablier
   for (i=n-1; i>=1; i--) {
     for (j=1; j<=i; j++) 
       printf(" ");
-    for (j=1; j<=2*(n-i)+1; j++) 
-      printf("%c", s);
+      printf("\033[0;34m"); 
+    for (j=1; j<=2*(n-i)+1; j++)
+    printf("%c", s);
     printf("\n");
   }
   return 0;
