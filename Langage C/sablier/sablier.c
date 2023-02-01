@@ -11,10 +11,15 @@ int main() {
 
   //controle de saisie pour que le nombre soit au lmoins egal a 2
   do {
-    printf("donne le nombres de lignes qui est au moins 2: ");
+    printf("Donnez le nombres de lignes qui est au moins 2: ");
     scanf("%d", &n);
+    if (n < 2)
+    {
+      printf("Le nombre doit etre plus grand que deux pour que le sablier soit beau ;-)\n");
+    }
+    
   }while(n<2);
-
+  
   //dessin du haut du sablier
   for (i=1; i<=n; i++) {
     for (j=1; j<=i; j++) 
