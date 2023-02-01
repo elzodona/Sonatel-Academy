@@ -3,9 +3,17 @@
 
 int main() {
     int n, compteur = 0;
-    printf("Entrez un entier positif N: ");
-    scanf("%d", &n);
-
+    do
+    {
+        printf("Entrez un entier positif N: ");
+        scanf("%d", &n);
+        if (n < 0)
+        {
+            printf("Le nombre doit etre positif : \n");
+        }
+        
+    } while (n<0);
+    
     int i = 2;
     while (compteur < n) {
         bool est_premier = true;
