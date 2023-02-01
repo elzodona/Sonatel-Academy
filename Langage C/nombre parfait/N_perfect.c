@@ -1,19 +1,31 @@
 #include <stdio.h>
 int main(){
-    int  i ;
-    int n;
-    int somme=0;
-    printf("Donnez un nombre entier positif: ");
+  int n;
+  int i;
+  int somme = 0;
+  do
+  {
+    printf("Donnez un nombre positif :");
     scanf("%d", &n);
-  for(i=1;i<n;i++){
-    if(n%i==0){
-      somme=somme+i;
+    if (n < 0)
+    {
+      printf("Le nombre doit etre positif. \n");
+    }
+    
+  } while (n < 0);
+
+  for ( i = 1; i < n; i++)
+  {
+    if (n%i == 0)
+    {
+      somme +=i;
     }
   }
-  if(somme==n){
-    printf("Le nombre %d est parfait \n", n);
+  if (somme == n)
+  {
+    printf("Ce nombre est parfait. \n");
+  }else{
+    printf("Ce nombre n'est pas partfait\n");
   }
-  else{
-    printf("Le nombre %d n'est pas parfait \n", n);
-  }
+  return 0;
 }
