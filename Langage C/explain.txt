@@ -1,0 +1,5 @@
+Explication Couleu : 
+L'astuce c'est de mettre "\033[" et apres le crochet tu peux mettre deux valeurs sepaés par un point virgule. en fonction du code ANSI sur le photo.
+le premier valeur designe le clignotement et la deuxieme valeur designe le couleur.
+Exemple: \033[0;34m" designe que 0 designe sa doit pas clignoter (seulemnt 5 et 6 clignote) et le 34 c'le couleur correspondant au tableau
+Exemple: \033[6;31m" designe que sa doit clignoter et le couleur doit etre 31
