@@ -1,4 +1,5 @@
 When i wrote this code only me and god knew how it worked
 now only god
 if y're trying to optimize this routine and failed, please increment the following counter
+as a warning to the next person
 total hours wasted here: 10 months
