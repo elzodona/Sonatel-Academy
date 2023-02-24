@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 97vh;
+    padding: 5px;
+    border: 2Px solid black;
+    margin: 1px 250px;
+}
+.header{
+    border: 1.5px solid red;
+    height: 20vh;
+    width: 100%;
+}
+.top{
+    display: flex;
+    width: 100%;
+    
+}
+.top_left{
+    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    
+}
+.top_right{
+    border: 1px solid red;
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.petit_cases{
+    border: 1px solid red;
+    width: 40px;
+    height: 30px;
+    margin-top: 4px;
+}
+.footeer_header{
+    border: 1px solid red;
+    height: 50px;
+    margin: 5px;
+}
+/*body drawing*/
+.body{
+    margin-top: 5px;
+    border: 2px solid green;
+    height: 63vh;
+    width: 100%;
+}
+.body_header{
+    margin: 5px;
+    border: 1.3px solid yellow;
+    height: 80px;
+    display: flex;
+}
+.body_header_left{
+    margin: 5px;
+    border: 1.3px solid yellow;
+    height: 70px;
+    width: 30%;
+}
+.body_header_right{
+    margin: 5px;
+    border: 1.3px solid yellow;
+    height: 70px;
+    width: 80%;
+}
+.body_body{
+    margin: 5px;
+    border: 1.3px solid red;
+    height: 35vh;
+}
+.body_footer{
+    margin: 5px;
+    border: 1.3px solid red;
+    height: 10vh;
+}
+.body_body_top{
+    display: flex;
+}
+.body_body_top_left{
+    margin: 5px;
+    border: 1.3px solid red;
+    height: 10vh;
+    width: 50%;
+}
+.body_body_top_right{
+    border: 1px solid red;
+    height: 10vh;
+    width: 50%;
+    margin: 5px;
+}
+.body_body_bottom{
+    border: 1px solid red;
+    height: 22vh;
+    width: 99%;
+    margin-left: 5px;
+    display: flex;
+}
+.body_body_bottom_content{
+    margin: 5px;
+    border: 1.3px solid red;
+    height: 20vh;
+    width: 50%;
+}
+.body_footer{
+    display: flex; 
+}
+.body_footer_left{
+    margin: 5px;
+    border: 1.3px solid red;
+    height: 8.4vh;
+    width: 50%;
+}
+.body_footer_right{
+    margin: 5px;
+    height: 8.4vh;
+    width: 50%;
+}
+.body_footer_right_top{
+    border: 1.3px solid red;
+    height: 4vh;
+    width: 99.3%;
+    margin-bottom: 1px;
+}
+.body_footer_right_bottom{
+    display: flex;
+}
+.body_footer_right_content{
+    border: 1.3px solid red;
+    height: 4vh;
+    width: 100%;
+    margin: 1px;
+}
+.footer{
+    margin-top: 9px;
+    border: 2px solid blue;
+    height: 11vh;
+}
+.footer_content{
+    display: flex;
+}
+.footer_left{
+    border: 1Px solid blue;
+    height: 10vh;
+    margin-top: 2.5px;
+    width: 10%;
+    margin-left: 5px;
+}
+.footer_right{
+    border: 1px solid blue;
+    width: 300px;
+    height: 10px;
+    margin-left: auto;
+    margin-top: 2.5px;
+    height: 10vh;
+    margin-right: 3px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_right_content{
+    border: 1px solid blue;
+    height: 9vh;
+    width: 90px;
+    margin-top: 2px;
+}
