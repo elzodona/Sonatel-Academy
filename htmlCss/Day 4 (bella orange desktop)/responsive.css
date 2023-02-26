@@ -1,0 +1,85 @@
+
+@media (max-width: 600px) {
+    body{
+        background-color: aqua;
+    }
+ 
+        body>div:nth-child(1) {
+            background-image: url("Logo.png");
+            background-repeat: no-repeat;
+            background-size: 6em;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding-top: 0rem;
+        }
+                body>div:nth-child(2)>div:nth-child(6) {
+                    background-image: url("2telephones.png");
+                    background-repeat: no-repeat;
+                    background-size: 30em 30em;
+                    background-position: center;
+                    position: relative;
+                    padding: 35rem 0rem 0rem 0rem;
+                    bottom: 3.75rem;
+                }
+
+                                body>div:nth-child(3)>div:nth-child(1) {
+                                    position: relative;
+                                    top: 30rem;
+                                    margin-left: 10.125rem;
+                                    margin-right: 10.875rem;
+                                    padding-top: -2.25rem;
+                                    border: 0.0625rem solid var(--traitGris);
+                                }
+
+
+                body>div:nth-child(3)>div:nth-child(2) {
+                    position: relative;
+                    top: 29.375rem;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-gap: 0.625rem;
+                }
+
+                body>div:nth-child(4) {
+                    position: relative;
+                    top: 25.625rem;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-gap: 0.625rem;
+                }
+
+                body>div:nth-child(5) {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    position: relative;
+                    top: 25.75rem;
+                }
+
+                body>div:nth-child(2) {
+    height: 28rem;
+    background-image: linear-gradient(var(--prochenoir),
+            var(--prochenoir)), url("back.jpeg");
+    background-repeat: no-repeat;
+    background-size: 81.25rem;
+    background-image: cover;
+    background-position: center;
+    color: var(--blanc);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+body>div:nth-child(5) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    top: 25.75rem;
+}
+
+body>div:nth-child(5) {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    top: 25.75rem;
+}
+
+}
